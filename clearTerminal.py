@@ -2,9 +2,9 @@ import os
 import platform
 
 def clear():
-    sistema_operacional = platform.system()
+    operational_system = platform.system()
 
-    if sistema_operacional == 'Windows':
+    if operational_system == 'Windows':
         os.system('cls')
-    elif sistema_operacional == 'Linux':
+    else:
         os.system('clear')
